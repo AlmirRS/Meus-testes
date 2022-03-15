@@ -1,0 +1,60 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.titulo{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 20px;
+}
+.titulo img{
+    width: 150px;
+    height: 80px;
+}
+.cartoes ul{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+}
+.cartoes ul li{
+    margin: 0px 15px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #f1f1f9;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.inicio{
+    background-image: url(imagens/background-cartao.jpg);
+    background-size: cover;
+    border-radius: 15px;
+    width: 1850px;
+    height: 650px;
+    margin: 50px auto;
+    border: 1px solid #f1f1f9;
+}
+.inicio h2{
+    position: relative;
+    font-size: 100px;
+    color: #f1f1f9;
+    top: 70px;
+    left: 180px;
+    width: 900px;
+    text-align: center;
+    padding: 15px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    box-shadow: 10px 10px 30px #333;    
+}
+.inicio p{
+    position: relative;
+    text-align: center;
+    left: 1250px;
+    top: -150px;
+    width: 400px;
+    padding: 50px;
+    font-size: 22px; 
+    border-bottom-right-radius: 80px;  
+    border-top-right-radius: 80px;  
+    box-shadow: 10px 10px 20px #333;
+}
